@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remembrall</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body class="bg-wall">
+    <nav class="navbar navbar-expand-md navbar-light bg-yellow fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" onclick="show_section('home')">Remembrall</a>
+            <button id="list" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" onclick="show_section('home')">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="show_section('information')">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="show_section('admin')">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="show_section('comment')">Comentarios</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-secondary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <div class="mt-2 rounded-3 bg-gray p-4" id="home">
+            <p>
+                Estas son las próximas tareas:
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloremque necessitatibus officiis rerum impedit dolorum deleniti corrupti totam atque cupiditate dicta reiciendis, fugit unde perferendis, veritatis aliquam facilis. Accusamus, sit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatem illo at dignissimos pariatur architecto accusantium saepe ex nemo, mollitia, unde, amet quis? Nostrum dolores facilis inventore pariatur, facere provident! Sed est iste
+                quasi quas numquam nemo consequuntur rerum dolorum adipisci tenetur quia accusamus unde, optio pariatur totam doloremque vel eligendi, culpa sit debitis. Expedita tenetur vel quam nulla veniam. Iusto eaque similique officiis. At consequuntur
+                aut culpa nulla error repudiandae. Enim, ratione autem illo amet rerum soluta, inventore magni dicta nam itaque atque, repellat laborum dolores unde vitae qui? Fugiat eveniet saepe quaerat eligendi perspiciatis nihil sunt ullam reprehenderit
+                exercitationem repudiandae, doloribus, dignissimos cum! Labore iusto dolores magnam cupiditate. Quas similique nulla eaque architecto suscipit a eos tenetur earum. Totam atque similique suscipit, incidunt labore placeat porro. Eos sit
+                soluta illum, perspiciatis praesentium porro deleniti maiores atque assumenda voluptates odio vitae sint quod aspernatur dolorum numquam totam excepturi molestiae. Cumque numquam corporis harum sed dignissimos asperiores eligendi, deleniti
+                quaerat dicta. Autem maiores necessitatibus explicabo quidem laborum, distinctio aliquid non ipsum eius repellendus dicta repudiandae, nisi ipsa praesentium porro rem. Praesentium, voluptate magni iste porro voluptatum tempore consectetur,
+                officiis ab nisi illum cumque nihil repellendus sequi. Officiis quos tenetur, suscipit dolorem quaerat voluptatum sed pariatur cupiditate est eaque asperiores fugiat! Recusandae consectetur repudiandae, aspernatur vel labore quasi cumque.
+                Quos distinctio tempore dicta numquam labore eos consequuntur perferendis. Dignissimos enim et, tempore vitae accusamus quod vel quidem qui, sit, necessitatibus velit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor
+                quidem sapiente laudantium eius molestias, sequi soluta eveniet dicta nam libero sit accusamus exercitationem nisi, aliquam suscipit, beatae ipsum itaque! Doloremque reprehenderit sequi optio fuga velit rerum, iure voluptas, dicta id magnam
+                ipsa doloribus unde natus pariatur eaque, eveniet vitae vero. Quam dolorem eaque laudantium, id fugit minus officiis corporis. Quos ratione dolorem tempore fuga, minima sed repudiandae velit earum voluptatum eos laudantium a cupiditate.
+                Saepe ea eos laborum delectus adipisci tempore repellat placeat, at nulla magnam nihil voluptatibus amet? Architecto quaerat assumenda, debitis error molestias laboriosam rem atque? Itaque fuga ea voluptates est adipisci omnis aliquid
+                repudiandae consectetur quia nesciunt, a dolor consequatur qui veritatis, sunt veniam nemo odio? Optio quasi rerum voluptatum facilis? Rem culpa quia id maiores natus nisi quaerat dolor officia harum molestias fugit odio accusamus dolorum
+                numquam quidem dolorem quam accusantium, sint ducimus, soluta amet! Veniam ut voluptatem, quasi animi, illum dolorum ipsa molestiae eos culpa assumenda ducimus ratione minus corrupti tempora repudiandae nostrum laudantium maxime saepe
+                earum possimus asperiores ad facere minima! Tenetur, enim! Quibusdam architecto a voluptatum ea pariatur iusto voluptate aut repellat labore? Illum facere, suscipit a cupiditate reprehenderit soluta error deserunt quasi qui commodi fuga.
+                Quasi beatae iusto ipsa necessitatibus exercitationem! Adipisci perspiciatis, quod vero animi enim quo expedita ut, cum recusandae sapiente excepturi, vitae consequuntur quia nobis distinctio voluptates earum in. Id at fugit sed voluptate
+                nostrum iure dignissimos ipsa!
+            </p>
+        </div>
+        <div class="mt-2 rounded-3 bg-gray p-4" id="information">
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Estructura de Datos
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong><a href="https://t.me/joinchat/eYtVXmp5AvA0NzZh">Ir a Canal de Telegram:</a></strong><br>
+                            <strong>Grupo General en Telegram</strong><br>
+                            <strong>Grupo del Aula en Telegram</strong><br>
+                            <strong>Bibliografía:</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Arquitectura de Computadoras
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Correo: profe Pina jpina@ceis.cujae.edu.cu</p>
+                            <p>Canal pincha aquí (https://t.me/joinchat/j5RSbnC9OVUwY2Ex)</p>
+                            <p>Grupo (entren por el Canal)</p>
+                            <p>Bibliografía Sin credenciales y datos .cu (https://icloud.cujae.edu.cu/index.php/s/FZHqMCBz5dBD2Zd)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Economia Empresarial
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Grupo pincha aquí (https://t.me/joinchat/pkCqro7Mxi1jMWNh)</p>
+                            <p>Bibliografia en la nube</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Problemas Sociales de la Ciencia y la Técnica
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p> grupo pincha aqui (http://t.me/Psct22)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Seguridad y Defensa
+                    </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Grupo pincha aquí (https://t.me/joinchat/ODZMqvV5wrcxOTYx)</p>
+                            <p>Bibliografía ICLOUD (https://icloud.cujae.edu.cu/index.php/s/YkdESWJLAodJ9MC)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="signup mt-4 rounded-3 bg-gray p-4 text-center" id="admin">
+            <h1 class="mb-5">Inicio de Sesión</h1>
+            <input class="form-control mb-2" type="email" id="inputEmail" placeholder="Nombre de Usuario" required autofocus>
+            <input class="form-control mb-4" type="password" id="inputPassword" placeholder="Contraseña" required>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Acceder</button>
+        </div>
+        <div class="mt-2" id="comment">
+            <div class="form rounded-3 bg-gray p-4 text-center">
+                <h3 class="mb-5">Danos tu Opinión</h3>
+                <textarea class="form-control mb-1 text-area" placeholder="Escribe algo aquí" type="text" name="" id="" cols="30" rows="10" required autofocus>
+
+                </textarea>
+                <input class="form-control mb-3" placeholder="Nombre de usuario" type="text" name="" id="" required>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar</button>
+            </div>
+            <div class="comment mt-2 rounded-3 bg-gray p-4">
+                <span><strong>Susana Horia dijo:</strong></span><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus in nemo fugiat pariatur, vero iusto, adipisci quod quaerat facilis, natus quisquam harum. Ratione reiciendis ullam,
+                quidem at repellat dicta quisquam.
+            </div>
+            <div class="comment mt-2 rounded-3 bg-gray p-4"><span><strong>Alan Brito dijo:</strong></span><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus in nemo fugiat pariatur, vero iusto, adipisci quod quaerat facilis, natus quisquam harum. Ratione reiciendis ullam, quidem
+                at repellat dicta quisquam.</div>
+            <div class="comment mt-2 rounded-3 bg-gray p-4"><span><strong>Alma Marcela dijo:</strong></span><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus in nemo fugiat pariatur, vero iusto, adipisci quod quaerat facilis, natus quisquam harum. Ratione reiciendis ullam, quidem
+                at repellat dicta quisquam.</div>
+
+        </div>
+    </main>
+
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding-top: 5rem;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+.bg-yellow {
+    background-color: rgb(255, 255, 62);
+}
+
+.bg-wall {
+    background-color: rgb(219, 219, 226);
+}
+
+.bg-gray {
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+#information,
+#admin,
+#comment {
+    display: none;
+}
+
+.nav-item {
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    margin: auto 20px;
+    font-size: 1.25em;
+}
+
+#inputEmail,
+#inputPassword {
+    max-width: 300px;
+    margin: auto;
+}
+
+.signup {
+    margin: auto;
+    max-width: 400px;
+}
+
+.text-area {
+    height: 100px;
+    text-align: start;
+}
