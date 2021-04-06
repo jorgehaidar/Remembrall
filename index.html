@@ -11,7 +11,7 @@
 </head>
 
 <body class="bg-wall">
-    <nav class="navbar navbar-expand-md navbar-light bg-yellow fixed-top shadow">
+    <nav class="navbar navbar-expand-md navbar-dark bg-yellow fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" onclick="show_section('home')">Remembrall</a>
             <button id="list" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,16 +21,24 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" onclick="show_section('home')">Inicio</a>
+                        <a id="pag1" class="nav-link active" aria-current="page" onclick="show_section('home','pag1')">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="show_section('information')">Información</a>
+                        <a id="pag2" class="nav-link" onclick="show_section('information','pag2')">Información</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="show_section('admin')">Admin</a>
+                        <a id="pag3" class="nav-link" onclick="show_section('admin','pag3')">Admin</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="show_section('comment')">Comentarios</a>
+                        <a id="pag4" class="nav-link" onclick="show_section('comment','pag4')">Comentarios</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Temas</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="#" onclick="theme1()">Tema 1</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="theme2()">Tema 2</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="theme3()">Tema 3</a></li>
+                        </ul>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -167,7 +175,7 @@
         </div>
     </main>
 
-    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
     <script src="js/index.js"></script>
 </body>
 
